@@ -4,7 +4,7 @@ Welcome to the official repository for **ResNet-CI-VAE**, a major M.Tech project
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 The primary goal is to generate **causally disentangled representations** in the latent space of a Variational Autoencoder (VAE), which can perform robust counterfactual generation while maintaining high visual fidelity.
 
@@ -12,7 +12,7 @@ The primary goal is to generate **causally disentangled representations** in the
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - **Disentanglement**: Separate latent space into causal and residual subspaces.
 - **SCM Integration**: Learn causal structure via Structural Causal Models.
@@ -22,7 +22,7 @@ The primary goal is to generate **causally disentangled representations** in the
 
 ---
 
-## 🏗️ Architecture Components
+##  Architecture Components
 
 1. **Encoder**  
    - Strategy 1: Standard Convolutional Encoder  
@@ -46,7 +46,7 @@ The primary goal is to generate **causally disentangled representations** in the
 
 ---
 
-## 📊 Dataset & Preprocessing
+##  Dataset & Preprocessing
 
 - **Dataset**: CelebA "Beard" attribute subset
 - **Image Sizes**:
@@ -59,7 +59,7 @@ The primary goal is to generate **causally disentangled representations** in the
 
 ---
 
-## 🏋️ Training Configuration
+##  Training Configuration
 
 - **Optimizer**: Adam
 - **Learning Rate**: `1e-5`
